@@ -4,24 +4,20 @@ body {
   overflow-x: hidden;
 }
 
-/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
-e 10px de altura para a barra horizontal */
+/* personalizar a barra em geral*/
 ::-webkit-scrollbar {
-    width: 3px !important;
-    }
+  width: 3px !important;
+}
      
-    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
-    ::-webkit-scrollbar-track {
-    background:#7466d1;
-    }
+/* aqui é para personalizar o fundo da barra*/
+::-webkit-scrollbar-track {
+  background:#7466d1;
+}
      
-    /* aqui é a alça da barra, que demonstra a altura que você está na página
-    estou colocando uma cor azul clara nela*/
-    ::-webkit-scrollbar-thumb {
-    background: white;
-    }
-
-    
+/* aqui é a alça da barra, que demonstra a altura que você está na página*/
+::-webkit-scrollbar-thumb {
+  background: white;
+}
 
 .main-homepage {
   background: rgb(85,74,156);
@@ -52,8 +48,6 @@ e 10px de altura para a barra horizontal */
   font-weight: 400;
   font-size: 15px;
 }
-
-
 
 .navbar-brand {
   margin-right: 4rem!important;
